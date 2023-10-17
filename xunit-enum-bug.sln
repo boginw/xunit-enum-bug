@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumBug", "EnumBug\EnumBug.csproj", "{7BC26F4C-ED1A-4D55-8546-F6CAD323A2C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumBug.Tests", "EnumBug.Tests\EnumBug.Tests.csproj", "{CC9DCAA2-538D-45C9-950E-8D82840760CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EF8CF9-7C00-40FE-9963-90D98DD847BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EF8CF9-7C00-40FE-9963-90D98DD847BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EF8CF9-7C00-40FE-9963-90D98DD847BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EF8CF9-7C00-40FE-9963-90D98DD847BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC26F4C-ED1A-4D55-8546-F6CAD323A2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC26F4C-ED1A-4D55-8546-F6CAD323A2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC26F4C-ED1A-4D55-8546-F6CAD323A2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC26F4C-ED1A-4D55-8546-F6CAD323A2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9DCAA2-538D-45C9-950E-8D82840760CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9DCAA2-538D-45C9-950E-8D82840760CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9DCAA2-538D-45C9-950E-8D82840760CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9DCAA2-538D-45C9-950E-8D82840760CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

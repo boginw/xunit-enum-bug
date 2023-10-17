@@ -9,7 +9,7 @@ public sealed class LocaleAssemblyFixture : XunitTestFramework
     public LocaleAssemblyFixture(IMessageSink messageSink)
         : base(messageSink)
     {
-        CultureInfo ci = new CultureInfo("fo-FO");
+        var ci = new CultureInfo(Environment.GetEnvironmentVariable("TESTLANG") ?? "fo-FO");
         Thread.CurrentThread.CurrentCulture = ci;
         Thread.CurrentThread.CurrentUICulture = ci;
     }
